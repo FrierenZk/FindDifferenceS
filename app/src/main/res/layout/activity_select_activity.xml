@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".select_activity">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <ImageButton android:layout_width="match_parent" android:layout_height="0dp"
+                             android:layout_weight="1" android:src="@drawable/x3ach" android:scaleType="fitCenter" android:id="@+id/imButton1"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/env" android:textSize="24sp" android:gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <ImageButton android:layout_width="match_parent" android:layout_height="0dp"
+                             android:layout_weight="1" android:src="@drawable/zjm87" android:scaleType="fitCenter" android:id="@+id/imButton2"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/animal" android:textSize="24sp" android:gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <ImageButton android:layout_width="match_parent" android:layout_height="0dp"
+                             android:layout_weight="1" android:src="@drawable/v3x3r" android:scaleType="fitCenter" android:id="@+id/imButton3"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/human" android:textSize="24sp" android:gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <ImageButton android:layout_width="match_parent" android:layout_height="0dp"
+                             android:layout_weight="1" android:src="@drawable/f94qb" android:scaleType="fitCenter" android:id="@+id/imButton4"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/animator" android:textSize="24sp" android:gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <ImageButton android:layout_width="match_parent" android:layout_height="0dp"
+                             android:layout_weight="1" android:src="@drawable/uc5i5" android:scaleType="fitCenter" android:id="@+id/imButton5"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/toy" android:textSize="24sp" android:gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <ImageButton android:layout_width="match_parent" android:layout_height="0dp"
+                             android:layout_weight="1" android:src="@drawable/ihxqi" android:scaleType="fitCenter" android:id="@+id/imButton6"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fur" android:textSize="24sp" android:gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <ImageButton android:layout_width="match_parent" android:layout_height="0dp"
+                             android:layout_weight="1" android:src="@drawable/iwwth" android:scaleType="fitCenter" android:id="@+id/imButton7"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/clothes" android:textSize="24sp" android:gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <ImageButton android:layout_width="match_parent" android:layout_height="0dp"
+                             android:layout_weight="1" android:src="@drawable/ol0m3" android:scaleType="fitCenter" android:id="@+id/imButton8"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/shoes" android:textSize="24sp" android:gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

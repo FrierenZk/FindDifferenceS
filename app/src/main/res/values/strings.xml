@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">FindDifferenceS</string>
+    <string name="app_title">找不同</string>
+    <string name="env">环境</string>
+    <string name="fur">家具</string>
+    <string name="animal">动物</string>
+    <string name="human">人物</string>
+    <string name="animator">动漫</string>
+    <string name="toy">玩具</string>
+    <string name="clothes">衣服</string>
+    <string name="shoes">鞋子</string>
+    <string name="start">开始</string>
+    <string name="exit">退出</string>
+    <string name="finish">完成</string>
+    <string name="game_title">请找出不同</string>
 </resources>
