@@ -51,7 +51,7 @@ class game : AppCompatActivity() {
         imageView.setImageBitmap(bmp1.bitmap)
         imageView2.setImageBitmap(bmp2.bitmap)
         imageView.setOnClickListener(imClickListener)
-        imageView.setOnClickListener(imClickListener)
+        imageView2.setOnClickListener(imClickListener)
     }
 
     private val pics = mapOf(
